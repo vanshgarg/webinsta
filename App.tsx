@@ -43,10 +43,10 @@ import { GoogleGenAI } from "@google/genai";
 
 // Firebase and Google Sheets Integrations
 import { initAuth, googleSignIn, logout, getAccessToken } from './firebase';
-import { initializeHeaders, appendLeadsToSheet } from './services/googleSheets';
-import type { LeadData } from './services/googleSheets';
+import { initializeHeaders, appendLeadsToSheet } from './googleSheets';
+import type { LeadData } from './googleSheets';
 
-import AdminPortalModal from './components/AdminPortalModal';
+import AdminPortalModal from './AdminPortalModal';
 
 // Additional icons for Admin Panel
 import { 
